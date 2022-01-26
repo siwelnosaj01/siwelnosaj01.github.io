@@ -4,6 +4,7 @@ main {
 
 .signup-title {
 	text-align: center;
+
 	font-size: 1.8rem;
 	color: #13082c;
 }
@@ -11,8 +12,8 @@ main {
 .signup-form {
 	padding: 1rem;
 	display: grid;
-	grid-auto-rows: 2rem;
-	grid-row-gap: 0.5rem;
+	-ms-grid-row: 2rem;
+	grid-row-gap: 0.05rem;
 }
 
 .signup-form label {
